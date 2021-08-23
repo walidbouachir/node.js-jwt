@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 // database connection
 const dbURI =
-  'mongodb+srv://walidos:test1234@nodejsapp.baio5.mongodb.net/nodejsapp?retryWrites=true&w=majority';
+  'mongodb+srv://user:password@nodejsapp.baio5.mongodb.net/nodejsapp?retryWrites=true&w=majority';
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
